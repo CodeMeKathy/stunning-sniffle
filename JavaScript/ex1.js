@@ -43,37 +43,42 @@
 // // 'Bob' - 'bill' // NaN
 // console.log('Bob' - 'bill')
 
-// // Evaluate the below comparisons as true or false:
+// Evaluate the below comparisons as true or false:
 
-// 5 >= 1 //
+// 5 >= 1 // true
+// console.log(5 >= 1)
 
+// 0 === 1 // false
+// console.log(0 === 1)
 
-// 0 === 1 //
+// 4 <= 1 // false
+// console.log(4 <= 1)
 
+// 1 !== 1 // false
+// console.log(1 !== 1)
 
-// 4 <= 1 //
+// 'A' > 'B' // false
+// console.log('A' > 'B')
 
+// 'B' < 'C' // true - B is less than C
+// console.log('B' < 'C')
 
-// 1 !== 1 //
+// 'a' > 'A' // false
+// console.log('a' > 'A')
 
+// 'b' < 'A' // true
+// console.log('b' < 'A')
 
-// 'A' > 'B' //
+// true === false // false
+// console.log(true === false)
 
-
-// 'B' < 'C' //
-
-
-// 'a' > 'A' //
-
-
-// 'b' < 'A' //
-
-
-// true === false //
-
-
-// true !== true //
-
-
+// true !== true // false
+// console.log(true !== true)
 
 // // Make the string: "Hi There! It's "sunny" out" by using the + sign:
+
+// function string () {
+//   console.log("Hi There! It's 'sunny'" + ' out')
+// }
+
+// string()

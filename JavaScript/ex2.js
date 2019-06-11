@@ -7,11 +7,18 @@
 
 // create a variable that holds the answer // of "firstName" + " " + "lastName"
 
-// Evaluate this question. What is a + b?
-var a = 34
-var b = 21
-a = 2
-a + b // what is the answer here?
+// let firstName = 'Kathy'
+// let lastName = 'Lambert'
+// let fullName = firstName + " " + lastName
+// console.log(fullName)
 
-// What is c equal to?
-var c
+// // Evaluate this question. What is a + b?
+// var a = 34
+// var b = 21
+// a = 2
+// console.log(a + b) // what is the answer here? // 23
+
+// // What is c equal to?
+// var c
+// console.log(c)
+// // undefined
