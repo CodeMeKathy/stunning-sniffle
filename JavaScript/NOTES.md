@@ -220,3 +220,10 @@ void
 while
 with
 yield
+
+## Data Attributes
+
+- A Data Attribute is an attribute that is an object w/ a created and assigned a name which will contain added data for that element. It is created with `data-` prefix followed by the assigned variable.
+- Everything inside of the assigned data attribute is then assembled into an object.
+- Data attributes allow for one to add any data element as long as it is preceded by `data-`.
+- Ex. `data-key = key'75'`
