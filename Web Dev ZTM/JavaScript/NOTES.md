@@ -74,7 +74,9 @@ A return statement tells JS that it has reached the final line of code and to ex
 `return`
 
 - Arrow Functions (new in ECMAScript 6)
-  `let variableName = (param1, param2) => {...}`
+
+  - Ex. `let variableName = (param1, param2) => {...}`
+  - Arrow functions automatically have lexical scope, meaning that one set the state of `this` where the function was defined in the first place.
 
 - Function Components
 
@@ -227,3 +229,5 @@ yield
 - Everything inside of the assigned data attribute is then assembled into an object.
 - Data attributes allow for one to add any data element as long as it is preceded by `data-`.
 - Ex. `data-key = key'75'`
+## Recursion
+- Recursion occurs when a function calls itself
