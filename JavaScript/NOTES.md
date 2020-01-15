@@ -229,5 +229,12 @@ yield
 - Everything inside of the assigned data attribute is then assembled into an object.
 - Data attributes allow for one to add any data element as long as it is preceded by `data-`.
 - Ex. `data-key = key'75'`
+
+
 ## Recursion
-- Recursion occurs when a function calls itself
+  - Recursion occurs when a function calls itself
+
+## Modules
+  - Webpack is a module bundler that bundles JS files and traverses the dependency tree through import and export tags into a single or multiple files to suite ones needs.
+  - Webpack allows one to use ES6 features in all browsers
+  - managed through a module.exports config file which creates a bundle.js file.

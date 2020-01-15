@@ -5,12 +5,12 @@ const detailedBasket = {
   grapes: 1000
 }
 
-//1
+// 1
 // for (let i = 0; i < basket.length; i++) {
 //   console.log(basket[i])
 // }
 
-//2
+// 2
 // basket.forEach(item => {
 //   console.log(item)
 // })
