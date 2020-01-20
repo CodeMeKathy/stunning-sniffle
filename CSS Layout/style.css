@@ -30,7 +30,7 @@
 .main-nav {
   display: flex;
   list-style: none;
-  font-size: 0.7rem;
+  font-size: 1rem;
   margin: 0;
 }
 .push {
@@ -48,11 +48,11 @@ a {
 /* Cover Styling */
 .red {
   display: flex;
-  height: 40vh;
+  height: 100vh;
   text-align: center;
   justify-content: center;
   align-items: center;
-  font-size: 1rem;
+  /* font-size: 1rem; */
 }
 
 /* Grid */
@@ -70,11 +70,16 @@ a {
   margin: 15px;
   justify-content: center;
   align-self: center;
+  border: 1px solid whitesmoke;
 }
 
 .grid-item img {
   height: 50px;
   width: 50px;
+}
+.footer {
+  text-align: center;
+  font-size: 1rem;
 }
 
 /* Media Queries */
