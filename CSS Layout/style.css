@@ -1,3 +1,4 @@
+/* Overall Styling */
 * {
   margin: auto 0; /* Remove browser default margins*/
 }
@@ -42,6 +43,16 @@
 a {
   color: whitesmoke;
   text-decoration: none;
+}
+
+/* Cover Styling */
+.red {
+  display: flex;
+  height: 40vh;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
 }
 
 /* Media Queries */
