@@ -55,6 +55,28 @@ a {
   font-size: 1rem;
 }
 
+/* Grid */
+
+.blue {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.grid-item {
+  display: flex;
+  height: 250px;
+  width: 200px;
+  background-color: grey;
+  margin: 15px;
+  justify-content: center;
+  align-self: center;
+}
+
+.grid-item img {
+  height: 50px;
+  width: 50px;
+}
+
 /* Media Queries */
 @media only screen and (max-width: 600px) {
   .main-nav {
